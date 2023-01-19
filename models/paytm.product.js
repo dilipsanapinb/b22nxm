@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 
-const carSchema=mongoose.Schema({
+const productSchema=mongoose.Schema({
     name:String,
     model:String,
     brand:String,
@@ -9,6 +9,6 @@ const carSchema=mongoose.Schema({
 
 })
 
-const CarModel=mongoose.model("car",carSchema);
+const ProductModel=mongoose.model("car",productSchema);
 
-module.exports={CarModel}
+module.exports={ProductModel}
